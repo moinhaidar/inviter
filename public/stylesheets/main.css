@@ -1,0 +1,39 @@
+* {margin:0px;padding:0px;}
+div, ul, li, p, span, b, u, i, h1, h2, h3, h4, h5, h6 {overflow:hidden;}
+body {font:13px Arial,Helvetica,sans-serif;background:url(../images/gradient.png) repeat-x scroll 0 0 #FF8C00;}
+img {border:0;}
+ul {list-style:none;}
+a {color:#38761D;text-decoration:none;}
+.fleft {float:left;}
+.fright {float:right;}
+.fclear {clear:both;}
+.o-auto {overflow:auto;}
+.m-auto {margin:0 auto;}
+
+/******* Colors ************/
+.black {color:#000000;}
+.grey {color:#666666;}
+.lgrey {color:#999999;}
+.white {color:#fff;}
+.dgreen {color:#38761D;}
+.green {color:#6AA84F;}
+.mgreen {color:#93C47D;}
+.lgreen {color:#6AA84F;}
+
+/*********** Font Sizes **************/
+.size-9 {font-size:9px;}
+.size-10 {font-size:10px;}
+.size-11 {font-size:11px;}
+.size-12 {font-size:12px;}
+.size-13 {font-size:13px;}
+.size-14 {font-size:14px;}
+
+/*********** Alignment **************/
+.aleft {text-align:left;}
+.aright {text-align:right;}
+.acenter {text-align:center;}
+.amiddle {vertical-align:middle;}
+
+/*********** Margin *********/
+.mtop-10{margin-top:10px;}
+/*********** Content Area **************/

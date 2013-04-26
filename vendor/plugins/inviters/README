@@ -1,0 +1,13 @@
+== Welcome to Inviter
+
+Inviter is a universal interface to grab invite your friends by EMAIL from various providers including Facebook, Twitter, LinkedIn, Foursquare.
+More are coming soon :)
+
+== Usage
+
+	Inviters::Twitter.new(login, password).invite('moinhaidar@gmail.com')
+
+== Authors
+
+* Moin  Haidar (mailto:moinhaidar@gmail.com)
+

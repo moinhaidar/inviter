@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Inviter</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="description" content="Make you more social to invite your love ones" />
+  <meta name="keywords" content="Inviter, Invite, Invite Friend, Invite by Email, Email, Digri" />
+  <%= stylesheet_link_tag 'main' %>
+</head>
+	<body>
+		<% # <!-- Header --> %>
+		<% # partial main header here %>
+		<div class="container m-auto">
+			<% # <!-- content area start --> %> 
+    	<div>
+				<div>
+					<% # <!-- Sub Header --> %>
+        	<% #partial sub header here %>
+        	<% # <!-- Notifications --> %>
+					<% #partial Notifications here %>
+					<%= yield %>
+					<% # <!-- Footer --> %>
+					<% #partial Footer here %>
+				</div>
+				<% # <!-- content area end --> %>
+			</div>
+			<% #Google Analytics and other sutff %>
+	</body>
+</html>
